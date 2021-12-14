@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+ background-image: url("../images/juego.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.title{
+    font-size: 60px;
+    text-transform:capitalize;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(100px);
+    font-family: 'Bakbak One', cursive;
+    color:aquamarine;
+}
+
+.subtitle{
+    font-size: 45px;
+    font-family: 'Bakbak One', cursive;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #fcee7a;
+    transform: translateY(140px);
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.select{
+    font-size: 35px;
+    font-family: 'Bakbak One', cursive;
+    color:salmon;
+    width: 120px;
+    height: 70px;
+   margin-top: 180px;
+}
+
+.button{
+    font-size: 35px;
+    font-family: 'Bakbak One', cursive;
+   background-color:salmon;
+   color: aquamarine;
+   width: 120px;
+   height: 70px;
+}
