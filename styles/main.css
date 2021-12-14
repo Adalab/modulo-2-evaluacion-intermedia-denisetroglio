@@ -48,10 +48,10 @@
   background-color: aquamarine;
   border-radius: 15px;
   align-items: center;
-  width: 80px;
+  width: 90px;
   height: 40px;
   margin-top: 180px;
-  transform: translate(108px, -135px);
+  transform: translate(90px, -135px);
 }
 
 .button {
@@ -62,9 +62,9 @@
   border-radius: 15px;
   align-items: center;
   text-align: center;
-  width: 80px;
+  width: 90px;
   height: 40px;
-  transform: translate(108px, -135px);
+  transform: translate(100px, -135px);
 }
 
 .player {
