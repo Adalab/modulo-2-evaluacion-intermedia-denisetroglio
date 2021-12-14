@@ -5,55 +5,76 @@
 }
 
 .main {
- background-image: url("../images/juego.jpg");
-  width: 100%;
+  background-image: url("../images/juego.jpg");
   background-size: cover;
   background-position: center;
+  align-items: center;
   background-repeat: no-repeat;
   height: 100vh;
+  width: 100%;
 }
 
-.title{
-    font-size: 60px;
-    text-transform:capitalize;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    transform: translateY(60px);
-    font-family: 'Bakbak One', cursive;
-    color:aquamarine;
+.title {
+  font-size: 22px;
+  text-transform: capitalize;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(20px);
+  font-family: "Bakbak One", cursive;
+  color: aquamarine;
 }
 
-.subtitle{
-    font-size: 42px;
-    font-family: 'Bakbak One', cursive;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    color: #fcee7a;
-    transform: translateY(60px);
+.subtitle {
+  font-size: 20px;
+  font-family: "Bakbak One", cursive;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #fcee7a;
+  transform: translateY(30px);
 }
 
-.form{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.select{
-    font-size: 30px;
-    font-family: 'Bakbak One', cursive;
-    color:salmon;
-    width: 120px;
-    height: 70px;
-   margin-top: 180px;
+.select {
+  font-size: 20px;
+  font-family: "Bakbak One", cursive;
+  color: salmon;
+  align-items: center;
+  width: 80px;
+  height: 40px;
+  margin-top: 180px;
+  transform: translate(108px, -130px);
 }
 
-.button{
-    font-size: 30px;
-    font-family: 'Bakbak One', cursive;
-   background-color:salmon;
-   color: aquamarine;
-   width: 120px;
-   height: 70px;
+.button {
+  font-size: 20px;
+  font-family: "Bakbak One", cursive;
+  background-color: salmon;
+  color: aquamarine;
+  align-items: center;
+  width: 80px;
+  height: 40px;
+  transform: translate(108px, -130px);
+}
+
+.player {
+  font-size: 20px;
+  font-family: "Bakbak One", cursive;
+  color: aquamarine;
+  text-align: center;
+  transform: translateY(240px);
+}
+
+.computer {
+  font-size: 20px;
+  font-family: "Bakbak One", cursive;
+  color: aquamarine;
+  text-align: center;
+  transform: translateY(250px);
 }
