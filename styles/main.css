@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .main {
@@ -18,19 +19,19 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    transform: translateY(100px);
+    transform: translateY(60px);
     font-family: 'Bakbak One', cursive;
     color:aquamarine;
 }
 
 .subtitle{
-    font-size: 45px;
+    font-size: 42px;
     font-family: 'Bakbak One', cursive;
     align-items: center;
     display: flex;
     flex-direction: column;
     color: #fcee7a;
-    transform: translateY(140px);
+    transform: translateY(60px);
 }
 
 .form{
@@ -40,7 +41,7 @@
 }
 
 .select{
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Bakbak One', cursive;
     color:salmon;
     width: 120px;
@@ -49,7 +50,7 @@
 }
 
 .button{
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Bakbak One', cursive;
    background-color:salmon;
    color: aquamarine;
