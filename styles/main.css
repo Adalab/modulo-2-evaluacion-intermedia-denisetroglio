@@ -45,6 +45,8 @@
   font-size: 20px;
   font-family: "Bakbak One", cursive;
   color: salmon;
+  background-color: aquamarine;
+  border-radius: 15px;
   align-items: center;
   width: 80px;
   height: 40px;
@@ -55,9 +57,11 @@
 .button {
   font-size: 20px;
   font-family: "Bakbak One", cursive;
-  background-color: salmon;
-  color: aquamarine;
+  background-color: #fcee7a;
+  color: salmon;
+  border-radius: 15px;
   align-items: center;
+  text-align: center;
   width: 80px;
   height: 40px;
   transform: translate(108px, -135px);
