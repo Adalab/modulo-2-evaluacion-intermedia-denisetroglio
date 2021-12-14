@@ -5,13 +5,16 @@
 }
 
 .main {
-  background-image: url("../images/juego.jpg");
-  background-size: cover;
-  background-position: center;
-  align-items: center;
+  background-image: url("../images/play.jpg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
@@ -20,9 +23,11 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  transform: translateY(20px);
+  text-align: center;
   font-family: "Bakbak One", cursive;
-  color: aquamarine;
+  color: #adff2f;
+  text-shadow: 2px 2px 2px blue;
+  padding-top: 10px;
 }
 
 .subtitle {
@@ -31,54 +36,85 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  color: #fcee7a;
-  transform: translateY(30px);
+  color: #adff2f;;
+ padding-top: 20px;
 }
 
-.form {
+
+@media all and (min-width: 768px){
+  .title{
+    font-size: 50px;
+  }
+  .subtitle{
+    font-size: 40px;
+  }
+}
+
+.form{
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 .select {
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Bakbak One", cursive;
-  color: salmon;
-  background-color: aquamarine;
+  color: #ba3eea;
+  background-color: black;
   border-radius: 15px;
-  align-items: center;
-  width: 90px;
-  height: 40px;
-  margin-top: 180px;
-  transform: translate(90px, -135px);
+  text-align: center;
+  width: 100px;
+  height: 50px;
+ margin: 45px 5px 15px;
+  border: solid 0.2em #ba3eea;
 }
 
 .button {
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Bakbak One", cursive;
-  background-color: #fcee7a;
-  color: salmon;
+  background-color: black;
+  color: #ba3eea;
   border-radius: 15px;
-  align-items: center;
   text-align: center;
-  width: 90px;
-  height: 40px;
-  transform: translate(100px, -135px);
+  width: 100px;
+  height: 50px;
+  margin: 45px 5px 15px;
+  border: solid 0.2em #ba3eea;
+}
+
+@media all and (min-width: 768px){
+  .select{
+    font-size:35px;
+    width: 150px;
+    height: 100px;
+  }
+  .button{
+    font-size:35px;
+    width: 150px;
+    height: 100px;
+  }
 }
 
 .player {
   font-size: 20px;
   font-family: "Bakbak One", cursive;
-  color: aquamarine;
+  color: #adff2f;;
   text-align: center;
-  transform: translateY(240px);
+  padding-top:25px;
 }
 
 .computer {
   font-size: 20px;
   font-family: "Bakbak One", cursive;
-  color: aquamarine;
+  color: #adff2f;;
   text-align: center;
-  transform: translateY(250px);
+  padding-top:15px;
+}
+
+@media all and (min-width: 768px){
+  .player{
+    font-size: 40px;
+  }
+  .computer{
+    font-size: 40px;
+  }
 }
