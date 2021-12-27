@@ -97,6 +97,15 @@
 
 .hidden {
   display: none;
+  font-size: 18px;
+  font-family: "Bakbak One", cursive;
+  background-color: black;
+  color: #ba3eea;
+  border-radius: 15px;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  border: solid 0.2em #ba3eea;
 }
 
 

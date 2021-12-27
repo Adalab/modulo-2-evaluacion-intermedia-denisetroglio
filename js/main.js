@@ -1,6 +1,6 @@
 "use strict";
 
-const playButn = document.querySelector(".js_letsplay");
+const playBtn = document.querySelector(".js_letsplay");
 const reloadBtn = document.querySelector(".js_reloadgame")
 const selectOption = document.querySelector(".js_select");
 const resultInput = document.querySelector(".js_result");
@@ -107,6 +107,8 @@ function gameOver(){
   }else{
     resultInput.innerHTML = "¡Empate!"
   }
+  playBtn.classList.add("hidden");
+  reloadBtn.classList.remove("hidden");
 }
 }
 
@@ -119,5 +121,18 @@ function handleClickPlay(event){
     gameOver();
 }
 
+function handleClickReload(ev) {
+  ev.preventDefault();
+  playBtn.classList.remove("hidden");
+  reloadBtn.classList.add("hidden");
+  playerScore = 0;
+  computerScore = 0;
+  moves = 0;
+  resultInput.innerHTML = "Vamos a jugar"
+  computer.innerHTML = "Ordenador: " + computerScore;
+  player.innerHTML = "Jugador:  " + playerScore;
+}
+
 //evento:
-playButn.addEventListener( "click", handleClickPlay);
+playBtn.addEventListener( "click", handleClickPlay);
+reloadBtn.addEventListener("click", handleClickReload)
