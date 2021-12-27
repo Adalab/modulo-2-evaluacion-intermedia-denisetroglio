@@ -27,7 +27,7 @@
   font-family: "Bakbak One", cursive;
   color: #adff2f;
   text-shadow: 2px 2px 2px blue;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .subtitle {
@@ -47,8 +47,8 @@
   background-color: black;
   border-radius: 15px;
   text-align: center;
-  width: 100px;
-  height: 50px;
+  width: 90px;
+  height: 40px;
   margin: 45px 5px 15px;
   border: solid 0.2em #ba3eea;
 }
@@ -60,8 +60,8 @@
   color: #ba3eea;
   border-radius: 15px;
   text-align: center;
-  width: 100px;
-  height: 50px;
+  width: 90px;
+  height: 40px;
   margin: 45px 5px 15px;
   border: solid 0.2em #ba3eea;
 }
@@ -73,27 +73,27 @@
   border-radius: 9px;
   text-align: center;
   border: solid 0.2em #e5048c;
-  font-size: 12px;
-  width: 120px;
-  height: 30px;
+  font-size: 14px;
+  width: 130px;
+  height: 35px;
   margin-top: 15px;
-  text-shadow: 2px 2px 2px #adff2f;
+  text-shadow: 2px 2px 2px blue;
 }
 
 .jugar{
   font-family: "Bakbak One", cursive;
   color: #adff2f;
   background-color: black;
-  border-radius: 9px;
+  border-radius: 10px;
   text-align: center;
   border: solid 0.2em #ba3eea;
-  font-size: 12px;
+  font-size: 16px;
   width: 180px;
   height: 30px;
 }
 
 .player {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Bakbak One", cursive;
   color: #adff2f;
   text-align: center;
@@ -101,7 +101,7 @@
 }
 
 .computer {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Bakbak One", cursive;
   color: #adff2f;
   text-align: center;
@@ -125,12 +125,11 @@
 
 @media all and (min-width: 768px) {
   .title {
-    font-size: 50px;
-  }
-  .subtitle {
     font-size: 40px;
   }
-}
+  .subtitle {
+    font-size: 30px;
+  }
 
 .form {
   display: flex;
@@ -168,7 +167,7 @@ font-size: 24px;
   height: 50px;
   font-size: 20px;
 }
-
+}
 
 @media all and (min-width: 1200px) {
   .select {
@@ -203,9 +202,9 @@ font-size: 24px;
   padding-top: 15px;
 }
 .btn{
-  width: 200px;
+  width: 220px;
   height: 60px;
-  font-size: 22px;
+  font-size: 24px;
 }
 }
 
